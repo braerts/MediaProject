@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'GintoMedium';
+    src: url('fonts/GintoNordMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #48444c;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38343c;
+    height: 8vw;
+    width: 100vw;
+}
+
+.navElement {
+    float: right;
+    width: 12.75vw;
+    height: 6.5vw;
+    border-radius: 0.5vw;
+    background-color: #322e35;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 0.75vw;
+    margin-top: 0.75vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.navElement i {
+    margin-top: 1.2vw;
+}
+
+#amazoniaLogo {
+    float: left;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+#settings {
+    width: 8vw;
+}
+
+li a {
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 2.05vw;
+    text-decoration: none;
+}
+
+.navElement:hover {
+    background-color: #202020;
+    border-color: #191919;
+}
+
+/* Centering Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;  /* Adds space between money and stock sections */
+    margin-top: 5vw;  /* Adjusts vertical spacing below the navbar */
+}
+
+.money, .stock {
+    width: 25vw;
+    text-align: center;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.balanceImg {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 0.5vw;
+}
+
+.balanceBox {
+    width: 12vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    background-color: #58545c;
+    margin-top: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#totalBalance, #totalStockBalance {
+    font-family: 'GintoMedium';
+    font-size: 1.5vw;
+    font-style: normal;
+    color: #eeeeee;
+    text-align: center;
+}
+
+#account {
+    font-family: 'GintoMedium';
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    background-color: #58545c;
+    border-color: #58545c;
+    color: #eeeeee;
+    margin-top: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

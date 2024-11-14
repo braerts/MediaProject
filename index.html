@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amazonia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ae191e21bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <a href=index.html><img class="navElement" id="amazoniaLogo" src="src/Amazonia_Logo.png" alt="Website Logo"></a>
+                <li class="navElement" id="settings"><a href="Settings.html"><i class="fa-solid fa-gear fa-xl"></i></a></li>
+                <li class="navElement" id="about"><a href="aboutUs.html"><i class="fa-solid fa-info fa-xl"></i></a></li>
+                <li class="navElement" id="stock"><a href="stockMarket.html"><i class="fa-solid fa-chart-line fa-xl"></i></a></li>
+                <li class="navElement" id="casino"><a href="casino.html"><i class="fa-solid fa-dice fa-xl"></i></a></li>
+                <li class="navElement" id="store"><a href="store.html"><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
+                <li class="navElement" id="bank"><a href="bank.html"><i class="fa-solid fa-money-bill-1-wave fa-xl"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="money">
+            <div class="balance-section">
+                <img id="moneyImg" class="balanceImg" src="src/bank.png" alt="Money Logo">
+                <div class="balanceBox">
+                    <i id="totalBalance">$122578</i>
+                </div>
+                <div class="dropdown">
+                    <select id="account" name="account">
+                        <option value="Braerts">Braerts</option>
+                        <option value="Braerts2">Braerts2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="stock">
+            <div class="balance-section">
+                <img id="stockImg" class="balanceImg" src="src/stock.png" alt="Stock Logo">
+                <div class="balanceBox">
+                    <i id="totalStockBalance">$20000</i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
